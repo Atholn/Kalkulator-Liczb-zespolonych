@@ -1,0 +1,191 @@
+object Form1: TForm1
+  Left = 1342
+  Height = 367
+  Top = 260
+  Width = 565
+  Caption = 'Form1'
+  ClientHeight = 367
+  ClientWidth = 565
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Dodawanie: TButton
+    Left = 127
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = '+'
+    OnClick = DodawanieClick
+    TabOrder = 2
+  end
+  object Odejmowanie: TButton
+    Left = 221
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = '-'
+    OnClick = OdejmowanieClick
+    TabOrder = 3
+  end
+  object Liczba_1: TEdit
+    Left = 23
+    Height = 23
+    Top = 88
+    Width = 80
+    OnChange = Liczba_1Change
+    TabOrder = 0
+    Text = 'liczba_1'
+  end
+  object Liczba_2: TEdit
+    Left = 319
+    Height = 23
+    Top = 88
+    Width = 80
+    OnChange = Liczba_2Change
+    TabOrder = 1
+    Text = 'liczba_2'
+  end
+  object Podaj_dwie_liczby: TLabel
+    Left = 118
+    Height = 15
+    Top = 8
+    Width = 157
+    Caption = 'Kalkulator Liczb Zespolonych '
+    ParentColor = False
+    OnClick = Podaj_dwie_liczbyClick
+  end
+  object ZK: TButton
+    Left = 167
+    Height = 25
+    Top = 168
+    Width = 112
+    Caption = 'Zapis kartezjanski'
+    OnClick = ZKClick
+    TabOrder = 6
+  end
+  object Dzielenie: TButton
+    Left = 221
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = '/'
+    OnClick = DzielenieClick
+    TabOrder = 4
+  end
+  object Mnozenie: TButton
+    Left = 127
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = '*'
+    OnClick = MnozenieClick
+    TabOrder = 5
+  end
+  object jaka_postac: TLabel
+    Left = 127
+    Height = 15
+    Top = 144
+    Width = 186
+    Caption = 'W jakiej postaci przedstawić wynik?'
+    ParentColor = False
+    OnClick = jaka_postacClick
+  end
+  object ST: TButton
+    Left = 90
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Stopnie'
+    OnClick = STClick
+    TabOrder = 7
+  end
+  object RA: TButton
+    Left = 191
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Radiany'
+    OnClick = RAClick
+    TabOrder = 8
+  end
+  object UP: TButton
+    Left = 287
+    Height = 25
+    Top = 216
+    Width = 75
+    Caption = 'Ulamek pi'
+    OnClick = UPClick
+    TabOrder = 9
+  end
+  object Wynik: TLabel
+    Left = 207
+    Height = 15
+    Top = 312
+    Width = 36
+    Caption = 'Wynik:'
+    ParentColor = False
+    OnClick = WynikClick
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 24
+    Width = 407
+    Caption = 'Info: Podaj dwie liczby zespolone w postaci a+-bi np 3-1i .  0 +0i  .  -2,4+4213i'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object jaka_postac1: TLabel
+    Left = 183
+    Height = 15
+    Top = 200
+    Width = 95
+    Caption = 'Zapis wykladniczy'
+    ParentColor = False
+    OnClick = jaka_postacClick
+  end
+  object jaka_postac2: TLabel
+    Left = 168
+    Height = 15
+    Top = 248
+    Width = 128
+    Caption = 'Zapis trygonometryczny'
+    ParentColor = False
+    OnClick = jaka_postacClick
+  end
+  object ST1: TButton
+    Left = 90
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'Stopnie'
+    OnClick = ST1Click
+    TabOrder = 10
+  end
+  object RA1: TButton
+    Left = 191
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'Radiany'
+    OnClick = RA1Click
+    TabOrder = 11
+  end
+  object UP1: TButton
+    Left = 287
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'Ulamek pi'
+    OnClick = UP1Click
+    TabOrder = 12
+  end
+  object Label2: TLabel
+    Left = 56
+    Height = 15
+    Top = 40
+    Width = 343
+    Caption = 'Uwaga : w przypadku 0 lub 1 prosze wpisac  odpowiednio 0 lub 1 '
+    ParentColor = False
+    OnClick = Label1Click
+  end
+end
